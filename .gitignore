@@ -1,0 +1,24 @@
+# Images et archives du dataset (non versionnées)
+dataset/perruche/
+dataset/pas_perruche/
+dataset_split/
+dataset2/
+*.zip
+*.jpg
+*.jpeg
+*.png
+!docs/*.jpg
+!docs/*.jpeg
+!docs/*.png
+
+# Exports intermédiaires
+saved_model/
+my_bird_model*/
+runs/
+
+# Python / notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.env
